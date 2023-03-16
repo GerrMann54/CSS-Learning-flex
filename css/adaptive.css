@@ -1,0 +1,115 @@
+@media (max-width: 1500px) {
+    .number {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .addt-box {
+        min-width: 150px;
+    }
+
+    .contacts {
+        list-style: none;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .grow {
+        flex-grow: 0;
+    }
+}
+
+@media (min-width: 1340px) {
+    .contact-but {
+        display: none;
+    }
+}
+
+@media (max-width: 1340px) {
+    .addt-box {
+        display: none;
+    }
+
+    .contact-but {
+        min-width: 120px;
+    }
+}
+
+@media (max-width: 920px) {
+    .hpanel {
+        flex-wrap: wrap;
+        height: 120px;
+    }
+
+    .logobox {
+        width: 100%;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .addt {
+        display: none;
+    }
+
+    .hbut-first {
+        border-left: 1px solid black;
+    }
+}
+
+@media (max-width: 890px) {
+    /* .ul-main {
+        width: 80%;
+    } */
+
+    .cotent-container {
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: center;
+    }
+    
+    .text-content {
+        width: 800px;
+        /* float: left; */
+    }
+    .img-content {
+        width: 60%;
+        margin: 10px auto;
+        /* float: right; */
+    }
+    
+    h2 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .ul-cont {
+        width: 60%;
+    }
+}
+
+@media (max-width: 740px) {
+    .ul-main {
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 1106px) {
+    .pr-tri {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 746px) {
+    .pr-sec {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1146px) {
+    .sv-sec {
+        margin-top: 0 !important;
+    }
+}

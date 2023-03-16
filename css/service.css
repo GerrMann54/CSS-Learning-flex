@@ -1,0 +1,128 @@
+.sv-container {
+    max-width: 1180px;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.sv-card {
+    display: flex;
+    width: 550px;
+    min-height: 300px;
+    background-color: rgb(196, 196, 196);
+    /* border-left: 2px solid black;
+        border-right: 2px solid black; */
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    justify-content: left;
+    border-radius: 2px;
+    transition: 450ms;
+}
+
+.sv-card-leftbar {
+    min-width: 160px;
+    border-right: 3px solid rgb(153, 199, 47);
+    display: flex;
+    flex-direction: column;
+    transition: 300ms;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.sv-card-leftbar:hover {
+    background-color: #fff;
+}
+
+.sv-img {
+    display: block;
+    width: 88%;
+    margin: 10px auto;
+}
+
+.grow {
+    flex-grow: 3;
+}
+
+.grow-vert {
+    flex-grow: 3 !important;
+}
+
+.sv-price {
+    display: block;
+    text-align: right;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.sv-but {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 140px;
+    height: 40px;
+    margin: 15px auto;
+    margin-bottom: 10px;
+    /* border: 1px solid rgb(153, 199, 47); */
+    border: none;
+    border-radius: 1px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    background-color: rgb(24, 24, 24);
+    color: rgb(235, 235, 235);
+    transition: 50ms;
+    transition-property: background-color;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.sv-but:hover {
+    background-color: #000;
+}
+
+.sv-but:active {
+    background: rgb(153, 199, 47);
+    color: #fff;
+}
+
+.sv-card-rightbar {
+    flex-grow: 1;
+    transition: 300ms;
+}
+
+.sv-card-rightbar:hover {
+    background-color: #fff;
+}
+
+.sv-header {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.sv-content {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.sv-list {
+    list-style: square;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sv-list li {
+    margin-left: 33px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
